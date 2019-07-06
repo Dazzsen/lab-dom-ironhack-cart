@@ -38,7 +38,7 @@ function createNewItem(){
 
 }
 
-window.onload = function(){
+/*window.onload = function(){
   var calculatePriceButton = document.getElementById('calc-prices-button');
   var createItemButton = document.getElementById('new-item-create');
   var deleteButtons = document.getElementsByClassName('btn-delete');
@@ -49,4 +49,16 @@ window.onload = function(){
   for(var i = 0; i<deleteButtons.length ; i++){
     deleteButtons[i].onclick = deleteItem;
   }
-};
+};  
+
+
+
+
+
+
+
+
+
+
+
+
